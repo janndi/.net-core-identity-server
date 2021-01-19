@@ -1,3 +1,4 @@
+using IdentityServer4.Validation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -30,6 +31,9 @@ namespace IdentityServer
              })
              .AddInMemoryApiResources(Config.GetApiResources())
              .AddInMemoryClients(Config.GetClients());
+
+            services.AddTransient<IResourceOwnerPasswordValidator, ResourceOwnerPasswordValidator>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

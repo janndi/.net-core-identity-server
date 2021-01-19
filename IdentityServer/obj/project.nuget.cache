@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bsN6us64Ty0IUQiSIPY7EcHY5CjrwzDgP1aPyu211yL1xSGTDsR2PWQ2pun2cFaMKQ/vsWY/nIwm/dPMI3pn7Q==",
+  "dgSpecHash": "QDF7Dab23zMf9SzbfMxhl8iPYu13XmYpbX4QHcAyykULPjIISnNVErdHwtQFnz5nUqxUm6zQ2lLMka+/INTU9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jannj\\source\\repos\\IdentityServer\\IdentityServer\\IdentityServer.csproj",
+  "projectFilePath": "C:\\Users\\jannj\\Documents\\Practice\\.net-core-identity-server\\IdentityServer\\IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jannj\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\jannj\\.nuget\\packages\\identitymodel\\4.1.1\\identitymodel.4.1.1.nupkg.sha512",
